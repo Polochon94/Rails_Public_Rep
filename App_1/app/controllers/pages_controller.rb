@@ -1,14 +1,13 @@
 class PagesController < ApplicationController
   def home
-    @titre = "Accueil"
+    @title = "Accueil"
   end
 
   def contact
-    @titre = "Contact"
+    @title = "Contact"
   end
 
   def about
-    @titre = "À Propos"
+    @title = "A Propos"
   end
-end
 end
